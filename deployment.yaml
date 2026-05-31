@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: express-api
-        image: localhost:5000/express-api:v1.0
+        image: <VM_IP>:5000/express-api:v1.0
         ports:
         - containerPort: 3000
